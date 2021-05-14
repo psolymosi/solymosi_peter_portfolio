@@ -1,0 +1,132 @@
+body{
+	font-size: 20px;
+	font-family: 'Baloo 2', cursive;
+	font-weight: 400;
+	background-image: url(https://steamuserimages-a.akamaihd.net/ugc/353897557297850503/647D47CCEA854C0C3E9D3517DAF2D4780EFD531E/);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+
+
+
+
+
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex_egy{
+	justify-content: space-around;
+}
+
+a{
+	text-decoration: none;
+}
+
+.button{
+	text-align: center;
+	letter-spacing: 6px;
+	font-size: 0.7rem;
+	font-weight: bolder;
+	color: #FFFFFF;
+	background-color: #2E2E2E;
+	display: inline-block;
+	padding: 0.7rem 5rem;
+	margin: 1.2rem 0.5rem;
+	border-radius: 0.5rem;
+	transition: 0.6s;
+	min-width: max-content;
+	-webkit-box-shadow: 0px 2px 25px -15px rgba(0,0,0,0.2); 
+	box-shadow: 0px 2px 25px -15px rgba(0,0,0,0.2);
+}
+
+.button:hover{
+	cursor: pointer;
+	background-color: #9FE8E2;
+}
+
+.flex_nyulik{
+	flex-grow: 1;
+	text-align: right;
+}
+
+.button_right{
+float: right;
+}
+
+.box{
+	display: block;
+	padding: 0.2rem 1rem;
+	margin: 0;
+}
+
+.clearfix::after{
+	content: "";
+  	clear: both;
+  	display: table;
+} 
+
+.title{
+	text-align: center;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 5%;
+	margin: 3rem 10%;
+}
+
+.gif{
+	text-align: center;
+}
+
+.grid1{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 1.5rem;
+	margin: 3rem 10%;
+}
+
+.card{
+		display: block;
+		border-radius: .9rem;
+		padding: .5rem;
+		color: #FFFFFF
+}
+
+.card h1{
+	letter-spacing: 10px;
+	font-size: 2rem;
+	font-weight: 900;
+	color: #FFFFFF
+}
+
+.card h2{
+	letter-spacing: 2px;
+	font-size: 1.3rem;
+	font-weight: 900;
+	color: #FFFFFF
+}
+
+
+}
+
